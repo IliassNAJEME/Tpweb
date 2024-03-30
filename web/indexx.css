@@ -1,0 +1,74 @@
+.Premier{
+    color: brown;
+    text-align: center; /* Mettre le mot dans le centre */
+    font-weight: bold;  /* rendra le texte en gras */
+}
+
+.Deuxieme{
+    color: violet;
+    text-align: end; /* ecraser le mot jusqu'a la fin */
+}
+
+.img1{
+    border-radius: 50%; /* rendre la photo en cercle */
+    width: 300px; /* (largeur en français) la dimension horizontale*/
+    height: 300px; /* (hauteur en français) la dimension verticale*/
+}
+
+.img2{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+}
+
+.img3{
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+}
+
+.img4{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.img5{
+    width: 300px;
+    height: 300px;
+    border-radius: 10rem;
+}
+
+img{
+    margin-right: 50px; /* espace entre les photos (horizontale) */
+    margin-bottom: 50px; /* espace entre les photos (verticale) */
+}
+
+li{
+    list-style: none; /* Pour enlever les points qui sont dans la liste */
+    font-size: 2rem; /* rendra le texte en gras */
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* flex permet de jouer avec element pour les placer en ligne avec row soit en colonne avec column */
+.list{
+    display: flex; /* Rendre la liste dans une meme ligne */
+    flex-direction: row; /* choisir la direction est ce que de gauche a droite etc */
+    gap: 50px; /* Espace entre les mots */
+}
+
+.imglist{
+    display: flex; /* Rendre les photos dans une meme ligne */
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+li:hover{
+    cursor: pointer; /*  le curseur va changer lorsque en passe le curseur sur les mots */
+    color: coral; /* lorssque je passe le curseur la couleur des mots change */
+}
+
+img:hover{
+    cursor: pointer; /*  le curseur va changer lorsque en passe le curseur sur les photos */
+}
